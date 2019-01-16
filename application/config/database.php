@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'binmaley_infirmary',
+	'hostname' => 'o3iyl77734b9n3tg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+	'username' => 'vfvwutdri25cjfpc',
+	'password' => 'p8xmzxq2q1ph3605',
+	'database' => 'zdniz7ifk0smio0x',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'inf_',
 	'pconnect' => FALSE,
