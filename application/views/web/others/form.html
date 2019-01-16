@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Binmaley Infirmary</title>
+  <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="../node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" />
+  <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../css/style.css" />
+   <link rel="stylesheet" href="../css/mystyle.css" />
+</head>
+
+<body>
+  <div class=" container-scroller">
+    <!-- partial:../partials/_navbar.html -->
+    <nav class="navbar navbar-default col-lg-12 col-12 p-0 fixed-top d-flex flex-row nav_color">
+     <!--  <div class="bg-white text-center navbar-brand-wrapper">
+        <a class="navbar-brand brand-logo" href="#"><img src="../images/logo_star_black.png" /></a>
+        <a class="navbar-brand brand-logo-mini" href="#"><img src="../images/logo_star_mini.jpg" alt=""></a>
+      </div>   -->
+      <div class="navbar-menu-wrapper d-flex align-items-center">
+        <button class="navbar-toggler navbar-toggler d-none d-lg-block navbar-dark align-self-center mr-3" type="button" data-toggle="minimize">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <form class="form-inline mt-2 mt-md-0 d-none d-lg-block">
+          <input class="form-control mr-sm-2 search" type="text" placeholder="Search">
+        </form> -->
+        <ul class="navbar-nav ml-lg-auto d-flex align-items-center flex-row">
+          <li class="nav-item">
+            <div class="dropdown">
+              <a class="nav-link profile-pic btn btn-primary dropdown-toggle drop_user_name"  data-toggle="dropdown" href="#">
+                <img class="rounded-circle" src="../images/face.jpg" alt="">
+                <span> Richard V.Welsh</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right drop_user">
+                <li class="user-header">
+                  <img src="../images/face.jpg" class="img-circle" alt="User Image">
+                  <p>
+                    Richard V.Welsh
+                    <br><small>Position</small>
+                  </p>
+                </li>
+                <li class="user-footer">
+                 <!--  <div class="pull-left">
+                    <a href="#" class="btn btn-secondary mr-2">Profile</a>
+                  </div> -->
+                  <div class="pull-right">
+                    <a href="#" class="btn btn-secondary">Sign out</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-th"></i></a>
+          </li> -->
+        </ul>
+        <button class="navbar-toggler navbar-dark navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- partial -->
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="bg-white sidebar sidebar-offcanvas" id="sidebar">
+          <div class="user-info">
+            <img src="../images/face.jpg" alt="">
+            <p class="name">Richard V.Welsh</p>
+            <p class="designation">Manager</p>
+            <span class="online"></span>
+          </div>
+          <ul class="nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">
+                <img src="../images/icons/1.png" alt="">
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="../images/icons/7.png" alt="">
+                <span class="menu-title">Icons</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="../images/icons/8.png" alt="">
+                <span class="menu-title">Typography</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="collapse" href="#sample-pages" aria-expanded="false" aria-controls="sample-pages">
+                <img src="../images/icons/9.png" alt="">
+                <span class="menu-title">Sample Pages<i class="fa fa-sort-down"></i></span>
+              </a>
+              <div class="collapse" id="sample-pages">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Blank Page
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Login
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Register
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      404
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      500
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="../images/icons/10.png" alt="">
+                <span class="menu-title">Settings</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- partial -->
+        <div class="content-wrapper">
+          <div class="col-lg-12">
+            <div class="card">
+              <div class="card-body form-patient form-group">
+                <form>
+                  <div class="name form-group">
+                    <label class="col-sm-2 col-xs-2">Name:</label>
+                    <div class="name-group  col-sm-10 col-xs-10" >
+                      <input type="text" name="fname" placeholder="First Name" class="form-control p-input  col-sm-3 col-xs-3 fname">  
+                      <input type="text" name="mname" placeholder="Middle Name" class="form-control p-input  col-sm-3 col-xs-3 mname">
+                      <input type="text" name="lname" placeholder="Last Name" class="form-control p-input  col-sm-3 col-xs-3 lname">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-2">Birthday:</label>
+                    <input type="date" name="bday" class="form-control p-input bday col-md-2">
+                    <label class="col-md-2 col-sm-2">Sex:</label>
+                    <div class="gender col-md-5">
+                      <div class="form-radio">
+                        <label>
+                          <input name="gender" value="Male" type="radio">
+                          Male
+                        <i class="input-helper"></i></label>
+                      </div>
+                      <div class="form-radio">
+                        <label>
+                          <input name="gender" value="Female" type="radio">
+                          Female
+                        <i class="input-helper"></i></label>
+                      </div>
+                    </div>
+                  </div>                
+                  <div class="form-group">
+                    <div class="form-group bt-div" >
+                      <label class="col-md-2">Blood Type</label>
+                      <select class="form-control col-md-2">
+                        <option>Select Blood type</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>AB</option>
+                        <option>O</option>
+                      </select>
+                    </div>
+                    <label class="col-md-2">CP Number:</label>
+                    <input type="text" name="cpno" class="form-control p-input col-md-2 cpno">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-md-2">Address:</label>
+                    <input type="text" name="address" class="form-control p-input col-md-9 address ">
+                  </div>
+                  <div class="status col-md-12 row form-group">
+                    <label class="col-md-2">Vital Sign:</label>
+                    <input type="text" name="vs" class="form-control p-input col-md-4 ">
+                    <label class="col-md-2">Blood Pressure:</label>
+                    <input type="text" name="bp" class="form-control p-input col-md-4 "><br>
+                    <label class="col-md-2">Respiratory Rate:</label>
+                    <input type="text" name="rr" class="form-control p-input col-md-4 ">
+                    <label class="col-md-2">TEMP:</label>
+                    <input type="text" name="temp" class="form-control p-input col-md-4 "><br>
+                    <label class="col-md-2">WEIGHT:</label>
+                    <input type="text" name="weight" class="form-control p-input col-md-4 ">
+                    <label class="col-md-2">HEIGHT:</label>
+                    <input type="text" name="height" class="form-control p-input col-md-4 ">
+                  </div>
+                  <div class="p-save col-md-12 form-group">
+                    <button class="btn btn-primary mr-2">Save</button>
+                  </div>
+                </form>
+ 
+              </div>
+            </div>
+          </div>
+      </div>
+        <!-- partial:../partials/_footer.html -->
+        <footer class="footer">
+          <div class="container-fluid clearfix">  
+            <span class="float-right">
+                <a href="#">Binmaley Infirmary</a> &copy; 2017
+            </span>
+          </div>
+        </footer>
+
+        <!-- partial -->
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal">
+  <div class="modal-dialog  modal-sm">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Message
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../node_modules/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.min.js"></script>
+  <script src="../js/off-canvas.js"></script>
+  <script src="../js/hoverable-collapse.js"></script>
+  <script src="../js/misc.js"></script> 
+</body>
+
+</html>

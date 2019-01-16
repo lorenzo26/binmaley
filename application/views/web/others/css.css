@@ -1,0 +1,40 @@
+.name-group{
+	display: inline;
+	padding: 0;
+	width: 100%;
+
+}
+.name-group input{
+	min-height: 0!important;
+}
+
+.form-patient label{
+	margin: 0;
+}
+.form-patient input{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.form-patient select{
+	margin-bottom: 10px;
+}
+.gender{
+	display: inline;
+	padding: 0;
+}
+.gender div{
+	display: inline-block;
+}
+.form-patient .address{
+	width: 100%;
+}
+.bt-div, .bt-div select{
+	display: inline;
+}
+.status{
+	width: 95%;
+}
+.p-save button{
+  float: right;
+  margin-top: 10px;
+}
